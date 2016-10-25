@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  More, Ashwini  Account: jadrn018
+                     CS645, Spring 2016
+                     Project #3
+-->
+<head>
+  <title>TronixTone</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstyle.css">
+  <script src="/~jadrn018/proj1/jquery/jquery.js"></script>
+  <script src="/~jadrn018/proj1/jquery/jqueryUI.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script  type="text/javascript" src="p3Home.js"></script>
+</head>
+<body id="main">
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <div id="head" class="head">TronixTone</div>      
+    <div class="sub-head">High Quality Delivered</div>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#" id="home">Home</a></li>
+         <li><a href="#" id="about">About Us</a></li>
+         <li><a href="#" id="contact">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+         <li><a href="#" id="cart"><span class="glyphicon glyphicon-shopping-cart"></span> Cart<font color="yellow"> [<span id="itemcount">0</span>]</font></a></li>
+       </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="row-content" id="filter">
+    <div class="col-sm-2 sidenav hidden-xs">
+        <strong>CATEGORY</strong>
+        <form role="form" id="category" >
+           Loading....
+        </form>
+        <strong>BRAND</strong>
+         <form role="form" id="vendor">
+           Loading....
+        </form>
+        <strong>PRICE</strong>
+        <form role="form" id="price">
+            <table>
+		<tbody>
+		<tr>
+	        <td>$</td>
+	        <td><input type="text" id="min_price" name="min_price" maxlength="7" size="5" /></td> 
+	        <td>&nbsp;to&nbsp;$</td>
+	        <td><input type="text" id="max_price" name="max_price" maxlength="7" size="5" /></td>
+		</tr>
+		</tbody>
+	    </table>            
+        </form>
+      
+<button class="btn filter" id="apply">Apply Filters</button>
+<button class="btn filter" id="reset">Reset Filters</button>
+</div>
+</div>
+<div class="container-fluid" id="content">  Loading...Please wait.</div>
+<br>
+
+<footer>Copyright &copy; 2016. All Rights Reserved.</footer>
+
+</body>
+</html>
+

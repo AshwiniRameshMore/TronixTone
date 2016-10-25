@@ -1,0 +1,81 @@
+/*  More, Ashwini    Account: jadrn018
+                     CS645, Spring 2016
+                     Project #3
+*/
+.navbar {
+     margin-bottom: 20px;
+     width:100%;
+     background:black;
+     border-radius: 0;
+    }
+a{color:#4e4edb; font-weight:bold}
+img:hover{cursor:pointer}
+.jumbotron {
+     margin-top:0px;width:100%;
+     margin-bottom: 0px; background:#4e4edb;
+}
+.spacer{padding-left:20px;}
+.container{height:100px; margin-top:-50px;}
+.showclass{margin:10px 200px 40px 200px}
+footer {padding:10px 0;
+        margin-top:60px;
+        background-color: #4e4edb;
+        text-align: center;
+        color: white;
+        font-size:14px;}
+#msg{padding-bottom:180px;padding-left:150px;padding-top:100px}
+body, html    {margin:0;
+               height:auto;
+               width:100%;
+               font-family:serif;
+                  }
+.head {
+    font-size:50px;
+    color: black;
+    font-weight:bold; padding-top:20px;letter-spacing: 3px;
+    }
+.sub-head {
+    font-size:25px;
+    color: darkgrey;   
+    font-weight:italic;
+    }
+.panel-footer{font-weight:bold;color:#4e4edb;}
+
+.panel > .panel-heading {
+   background-color: white;height:120px;overflow:hidden}
+
+.panel > .panel-body {overflow:hidden; height:40px;text-align:center;margin-top:-8px}
+
+.row-content{margin-top:0px} 
+.order{margin-left:10px;margin-right:10px}
+.cancel{margin-left:375px;margin-right:10px}
+.cancel_order{margin-left:230px;margin-right:10px}
+
+.checkout{color:white;background-color:black;width:200px; height:35px;font-weight:bold;margin-left:575px;}
+.addtoCart,.continue,.order,.cancel,.cancel_order{width:200px; height:35px;font-weight:bold; color:white;background-color:black;margin-top:20px}
+.order:hover,.checkout:hover,.cancel:hover,.continue:hover,.cancel_order:hover,.addtoCart:hover
+{color:black;background-color:gray;}
+#about1{margin-left:200px; margin-right:200px;margin-bottom:50px}
+.filter {
+	margin: 5px 25px 0 auto;
+	font-size: 12px;
+	font-weight: normal;
+	border-radius: 8px;
+        padding:4px;
+        width:120px;
+  	cursor: pointer;
+  	text-align: center;
+  	outline:none;
+  	color: white;
+  	border: 1px solid #000000;
+    background-color: black;
+	}
+
+.filter:hover,
+.filter:focus {
+	color : black;
+	background-color: white;
+}
+#sorry{margin-left:80px;color:black;font-weight:bold;margin-top:100px; }
+#message{margin-left:468px;margin-right:300px;margin-top:20px;color:red;font-weight:bold;}
+#emailInput{width:300px}
